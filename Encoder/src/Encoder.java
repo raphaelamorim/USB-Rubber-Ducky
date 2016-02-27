@@ -49,6 +49,7 @@ public class Encoder {
                         + "   CTRL-SHIFT [key name] (ex: CTRL-SHIFT ESC)\n"
                         + "   DEFAULT_DELAY | DEFAULTDELAY [Time in millisecond * 10] (change the delay between each command)\n"
                         + "   DELAY [Time in millisecond * 10] (used to overide temporary the default delay)\n"
+                        + "   COMMAND | COMMAND [key] (For OSX Users ex: COMMAND SPACE)\n"
                         + "   GUI | WINDOWS [key name] (ex: GUI r, GUI l)\n"
                         + "   REM [anything] (used to comment your code, no obligation :) )\n"
                         + "   ALT-SHIFT (swap language)\n"
