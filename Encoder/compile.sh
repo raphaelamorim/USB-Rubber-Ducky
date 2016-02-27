@@ -4,4 +4,12 @@ cd src/
 cp -R ../resources .
 javac Encoder.java
 jar cfe Encoder.jar Encoder Encoder.class
-cp -R Encoder.jar ../
+unzip Encoder.jar -d Encoder/
+cp -R resources/* Encoder/
+cd Encoder/
+zip -r encoder.jar .
+cd ..
+cp Encoder/encoder.jar ../
+rm -rf resources/
+rm -rf *.class
+rm -rf Encoder/
